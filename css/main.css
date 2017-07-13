@@ -16,31 +16,31 @@ p{
 h1,h2,h3,h4,h5,a{
 	font-family: "Philosopher Regular", Philosopher, sans-serif;
 }
-.navbar_to_link_page{
-	background: rgb(80,180,130);
-	display:flex;
-	justify-content: space-between;
-	width:100%;
-	box-shadow: 0 15px 24px 0 rgba(0, 0, 0, 0.5), 0 18px 36px 0 rgba(0, 0, 0, 0.18);
+nav{
+width:100%; background:rgb(80,180,130); box-shadow: 0 15px 24px 0 rgba(0, 0, 0, 0.5), 0 18px 36px 0 rgba(0, 0, 0, 0.18); margin-top:-20px;}
+nav ul{
 
+  display:flex;
+  justify-content: space-between;
+ }
+  nav li{
+  list-style-type: none;
+  flex:1 1 0;
 }
 
-.navbar_to_link_page li{
-	list-style-type: none; /* doesn't provide any type of list to items */
-	flex:1 1 0; /* provide flex ratio to 1 for every existing and new element */
-}
-.navbar_to_link_page a{
-	text-decoration: none; /* doesn't give any type of text-decoration items ie underline*/
-	padding:20px; /* provide space from all direction inside the container object */
-	display:block; /*provide block to the element */
-	text-align: center; /* move text to the center */
+
+
+nav a{
+    text-decoration: none;
+	padding:20px;
+	display:block;
+	text-align: center;
 	color:black;
 
-
 }
-.navbar_to_link_page a:hover{
-	/* color changes when mouse is over */
-	background-color: white;
+nav a:hover{
+  background:white;
+
 }
 .header_of_all{
   width: 20%;
@@ -185,8 +185,8 @@ img{
 
 
 @media all and (max-width: 1000px){
-	.navbar_to_link_page{
-		width:100%;
+	nav ul{
+
 		flex-direction: column;
 	}
 	.footer_and_all{
