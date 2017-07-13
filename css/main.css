@@ -105,6 +105,10 @@ nav a:hover{
 
 
 }
+.my_Map li{
+	list-style-type: none;
+
+}
 .my_Map img{
 	width:60px;
 	height:60px;
