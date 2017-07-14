@@ -58,7 +58,13 @@ nav a:hover{
 	margin:0 auto;
 	margin-top: 20px;
 	box-shadow: 0 15px 24px 0 rgba(0, 0, 0, 0.5), 0 18px 36px 0 rgba(0, 0, 0, 0.18);
+	-webkit-transition: width 2s;
+    transition: width 2s;
 
+}
+.image:hover{
+	width:30%;
+	
 }
 .image img{
 	width:100%;
